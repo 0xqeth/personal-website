@@ -15,14 +15,15 @@ function HomepageHeader() {
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
+        {/* Uncomment below if you want to add subtitle or buttons */}
+        {/* <p className="hero__subtitle">{siteConfig.tagline}</p> */}
+        {/* <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
             Docusaurus Tutorial - 5min ⏱️
           </Link>
-        </div>
+        </div> */}
       </div>
     </header>
   );
@@ -32,12 +33,15 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
+      noFooter = {true}
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
+      <div className={styles.containerFlex}> {/* Applying containerFlex for vertical center alignment */}
+        <HomepageHeader />
+        <main>
+          <HomepageFeatures />
+        </main>
+      </div>
     </Layout>
   );
 }

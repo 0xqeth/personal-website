@@ -4,15 +4,25 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
+  padding: 8rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
+  
+}
+.containerFlex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* 垂直居中 */
+  height: 100vh; /* 容器高度为视口高度 */
+  padding-top: 6.5rem; /* 增加顶部内边距以增加距离 */
+  padding-bottom: 10rem; /* 根据需要调整底部内边距 */
 }
 
 @media screen and (max-width: 996px) {
   .heroBanner {
     padding: 2rem;
+    text-align: center; 
   }
 }
 
