@@ -1,13 +1,13 @@
 ### Installation
 
 ```
-$ yarn
+$ npm install
 ```
 
 ### Local Development
 
 ```
-$ yarn start
+$ npm start
 ```
 
 ### Build
