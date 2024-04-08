@@ -1,0 +1,73 @@
+Arguments: 
+  /Users/xuqian/.nvm/versions/node/v18.19.1/bin/node /usr/local/bin/yarn
+
+PATH: 
+  /usr/local/mongodb/bin:/Users/xuqian/aptos:/Applications/CMake.app/Contents/bin:/usr/local/go/bin:/Users/xuqian/go/bin:/Users/xuqian/.cargo/bin:/Users/xuqian/.nvm/versions/node/v18.19.1/bin:/Users/xuqian/.local/share/solana/install/active_release/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/usr/local/share/dotnet:~/.dotnet/tools:/usr/local/go/bin:/Users/xuqian/.cargo/bin:/Users/xuqian/.foundry/bin:/Library/Java/JavaVirtualMachines/corretto-11.0.19/Contents/Home/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.19.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: certificate has expired
+      at TLSSocket.onConnectSecure (node:_tls_wrap:1659:34)
+      at TLSSocket.emit (node:events:517:28)
+      at TLSSocket._finishInit (node:_tls_wrap:1070:8)
+      at ssl.onhandshakedone (node:_tls_wrap:856:12)
+
+npm manifest: 
+  {
+    "name": "my-website",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "docusaurus": "docusaurus",
+      "start": "docusaurus start",
+      "build": "docusaurus build",
+      "swizzle": "docusaurus swizzle",
+      "deploy": "docusaurus deploy",
+      "clear": "docusaurus clear",
+      "serve": "docusaurus serve",
+      "write-translations": "docusaurus write-translations",
+      "write-heading-ids": "docusaurus write-heading-ids"
+    },
+    "dependencies": {
+      "@docusaurus/core": "3.2.1",
+      "@docusaurus/preset-classic": "3.2.1",
+      "@mdx-js/react": "^3.0.0",
+      "clsx": "^2.0.0",
+      "prism-react-renderer": "^2.3.0",
+      "react": "^18.0.0",
+      "react-dom": "^18.0.0"
+    },
+    "devDependencies": {
+      "@docusaurus/module-type-aliases": "3.2.1",
+      "@docusaurus/types": "3.2.1"
+    },
+    "browserslist": {
+      "production": [
+        ">0.5%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 3 chrome version",
+        "last 3 firefox version",
+        "last 5 safari version"
+      ]
+    },
+    "engines": {
+      "node": ">=18.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,19 @@
+{
+  "id": "ZK/2",
+  "title": "2",
+  "description": "",
+  "source": "@site/docs/ZK/2.md",
+  "sourceDirName": "ZK",
+  "slug": "/ZK/2",
+  "permalink": "/docs/ZK/2",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "1",
+    "permalink": "/docs/Rust/1"
+  }
+}

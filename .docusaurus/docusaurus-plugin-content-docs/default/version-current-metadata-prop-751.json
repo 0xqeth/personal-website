@@ -1,0 +1,118 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Overview",
+        "href": "/docs/intro",
+        "docId": "intro",
+        "unlisted": false
+      },
+      {
+        "type": "category",
+        "label": "Contract",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "以太坊随机数",
+            "href": "/docs/Contract/以太坊随机数",
+            "docId": "Contract/以太坊随机数",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "MerkelTree",
+            "href": "/docs/Contract/MerkelTree",
+            "docId": "Contract/MerkelTree",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "使用TheGraph",
+            "href": "/docs/Contract/使用TheGraph",
+            "docId": "Contract/使用TheGraph",
+            "unlisted": false
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Rust",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "1",
+            "href": "/docs/Rust/1",
+            "docId": "Rust/1",
+            "unlisted": false
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "ZK",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "2",
+            "href": "/docs/ZK/2",
+            "docId": "ZK/2",
+            "unlisted": false
+          }
+        ]
+      }
+    ]
+  },
+  "docs": {
+    "Contract/使用TheGraph": {
+      "id": "Contract/使用TheGraph",
+      "title": "使用TheGraph",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "Contract/以太坊随机数": {
+      "id": "Contract/以太坊随机数",
+      "title": "以太坊随机数",
+      "description": "1. 使用伪随机数",
+      "sidebar": "tutorialSidebar"
+    },
+    "Contract/MerkelTree": {
+      "id": "Contract/MerkelTree",
+      "title": "MerkelTree",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "intro": {
+      "id": "intro",
+      "title": "Overview",
+      "description": "2024年4月9日开始整理：",
+      "sidebar": "tutorialSidebar"
+    },
+    "Rust/1": {
+      "id": "Rust/1",
+      "title": "1",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "ZK/2": {
+      "id": "ZK/2",
+      "title": "2",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

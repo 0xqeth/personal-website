@@ -1,0 +1,26 @@
+{
+  "id": "Rust/1",
+  "title": "1",
+  "description": "",
+  "source": "@site/docs/Rust/1.md",
+  "sourceDirName": "Rust",
+  "slug": "/Rust/1",
+  "permalink": "/docs/Rust/1",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "使用TheGraph",
+    "permalink": "/docs/Contract/使用TheGraph"
+  },
+  "next": {
+    "title": "2",
+    "permalink": "/docs/ZK/2"
+  }
+}

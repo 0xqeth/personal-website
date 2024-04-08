@@ -1,0 +1,26 @@
+{
+  "id": "Contract/以太坊随机数",
+  "title": "以太坊随机数",
+  "description": "1. 使用伪随机数",
+  "source": "@site/docs/Contract/以太坊随机数.md",
+  "sourceDirName": "Contract",
+  "slug": "/Contract/以太坊随机数",
+  "permalink": "/docs/Contract/以太坊随机数",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "MerkelTree",
+    "permalink": "/docs/Contract/MerkelTree"
+  }
+}
